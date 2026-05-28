@@ -1,4 +1,4 @@
-from api.Repositories.UsuariosRepository import UsuariosRepository
+from src.api.Repositories.UsuariosRepository import UsuariosRepository
 from fastapi import status, HTTPException
 
 class UsuariosService:

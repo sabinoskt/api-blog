@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from api.Routers.UsuariosRouter import router
+from src.api.Routers.UsuariosRouter import router
 
 app = FastAPI(debug=True, title="Blog")
 

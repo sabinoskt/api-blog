@@ -1,6 +1,6 @@
 from sqlalchemy.orm import sessionmaker
-from api.Models.UsuariosModel import engine
-from api.Models.UsuariosModel import Usuarios
+from src.api.Models.UsuariosModel import engine
+from src.api.Models.UsuariosModel import Usuarios
 
 class UsuariosRepository:
     def __init__(self):
